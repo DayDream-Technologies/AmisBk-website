@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Placeholder image inspired by African textile patterns">
+  <rect width="800" height="520" fill="#6d3b2b"/>
+  <g fill="none" stroke="#c9a227" stroke-width="10">
+    <rect x="40" y="40" width="720" height="440"/>
+    <rect x="80" y="80" width="640" height="360"/>
+  </g>
+  <circle cx="400" cy="260" r="90" fill="#b88a44"/>
+  <circle cx="400" cy="260" r="50" fill="#f7f3eb"/>
+  <circle cx="400" cy="260" r="22" fill="#7a1f2b"/>
+  <path d="M140 260h120M540 260h120M400 120v80M400 320v80" stroke="#f6efe2" stroke-width="8"/>
+  <circle cx="160" cy="140" r="18" fill="#c9a227"/>
+  <circle cx="640" cy="140" r="18" fill="#c9a227"/>
+  <circle cx="160" cy="380" r="18" fill="#c9a227"/>
+  <circle cx="640" cy="380" r="18" fill="#c9a227"/>
+  <text x="400" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f6efe2">Placeholder: heritage pattern</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Placeholder image of a floral bouquet">
+  <rect width="800" height="500" fill="#efe4d2"/>
+  <rect x="340" y="280" width="120" height="160" rx="8" fill="#7a1f2b"/>
+  <rect x="355" y="295" width="90" height="20" fill="#c9a227"/>
+  <circle cx="400" cy="180" r="70" fill="#9c3a48"/>
+  <circle cx="330" cy="210" r="48" fill="#7a1f2b"/>
+  <circle cx="470" cy="205" r="52" fill="#b88a44"/>
+  <circle cx="370" cy="140" r="40" fill="#c9a227"/>
+  <circle cx="440" cy="138" r="36" fill="#7a1f2b"/>
+  <circle cx="400" cy="175" r="22" fill="#f6efe2"/>
+  <path d="M400 250v40" stroke="#2f6b3a" stroke-width="8"/>
+  <path d="M280 360c40-30 80-20 120 10" fill="none" stroke="#2f6b3a" stroke-width="6"/>
+  <path d="M520 360c-40-30-80-20-120 10" fill="none" stroke="#2f6b3a" stroke-width="6"/>
+  <text x="400" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#6d4a32">Placeholder: flowers &amp; gifts</text>
+</svg>

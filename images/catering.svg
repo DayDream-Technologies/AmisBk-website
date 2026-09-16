@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Placeholder image of Afro-centric catering">
+  <rect width="800" height="500" fill="#f3e6d0"/>
+  <ellipse cx="400" cy="310" rx="220" ry="28" fill="#cbb48a"/>
+  <ellipse cx="400" cy="280" rx="190" ry="90" fill="#d9c4a0"/>
+  <ellipse cx="400" cy="270" rx="150" ry="70" fill="#7a1f2b"/>
+  <ellipse cx="400" cy="255" rx="90" ry="40" fill="#c9a227"/>
+  <circle cx="340" cy="250" r="18" fill="#2f6b3a"/>
+  <circle cx="400" cy="240" r="16" fill="#f6efe2"/>
+  <circle cx="460" cy="252" r="18" fill="#2f6b3a"/>
+  <rect x="250" y="330" width="28" height="90" rx="6" fill="#3d2d21"/>
+  <rect x="522" y="330" width="28" height="90" rx="6" fill="#3d2d21"/>
+  <path d="M200 180h400" stroke="#b88a44" stroke-width="8" stroke-linecap="round"/>
+  <text x="400" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#6d4a32">Placeholder: catering</text>
+</svg>

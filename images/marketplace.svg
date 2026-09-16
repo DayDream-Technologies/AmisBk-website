@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Placeholder image of an international marketplace stall">
+  <rect width="800" height="500" fill="#ead9bc"/>
+  <path d="M120 210h560l-40 70H160z" fill="#7a1f2b"/>
+  <rect x="150" y="280" width="500" height="140" fill="#f7f3eb"/>
+  <rect x="180" y="310" width="120" height="80" fill="#b88a44"/>
+  <rect x="340" y="300" width="120" height="90" fill="#c9a227"/>
+  <rect x="500" y="318" width="120" height="72" fill="#6d3b2b"/>
+  <path d="M120 210c80-90 480-90 560 0" fill="#3d2d21"/>
+  <path d="M120 210c80-90 480-90 560 0" fill="none" stroke="#c9a227" stroke-width="6"/>
+  <text x="400" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#6d4a32">Placeholder: marketplace</text>
+</svg>
