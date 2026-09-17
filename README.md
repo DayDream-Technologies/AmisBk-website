@@ -33,8 +33,14 @@ Add these to `index.html` in the `<head>` (replace with the real URL):
 
 Then add a `Sitemap:` line to `robots.txt` pointing at a sitemap that uses the same absolute URL.
 
-## Replacing placeholders
+## Images
 
-- Logo: replace `images/logo.svg` (and optionally `images/favicon.svg`).
-- Section photos: replace the SVG files in `images/`.
-- Phone number: update the placeholder in `index.html`.
+Public site files live in `images/` with clear names:
+
+- `logo.svg`, `favicon.svg` — logo placeholders
+- `flowers.jpg`, `story.jpg` — rose photos
+- `catering.png`, `buffet.png`, `samosas.png`, `grilled-fish.png` — branded food photos
+- `marketplace.svg`, `culture.svg` — remaining placeholders
+- `source/` — original uploads, not used on the live page
+
+Replace `logo.svg` when the rose logo is ready. Update the phone number in `index.html` when it is available.

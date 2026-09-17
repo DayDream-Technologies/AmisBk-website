@@ -242,9 +242,9 @@ button:focus-visible {
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(circle at 20% 20%, rgba(201, 162, 39, 0.18), transparent 36%),
-    radial-gradient(circle at 80% 80%, rgba(122, 31, 43, 0.35), transparent 42%),
-    linear-gradient(160deg, #3d2d21 0%, #2d2118 55%, #4a3b2b 100%);
+    linear-gradient(rgba(24, 16, 12, 0.72), rgba(24, 16, 12, 0.78)),
+    url("../images/buffet.png") center 35% / cover no-repeat,
+    #2d2118;
   color: var(--white);
   text-align: center;
   padding: 96px 20px 108px;
@@ -260,8 +260,8 @@ button:focus-visible {
 
 .hero-banner::before {
   background-image:
-    linear-gradient(30deg, transparent 0 46%, rgba(201, 162, 39, 0.08) 47% 53%, transparent 54%),
-    linear-gradient(-30deg, transparent 0 46%, rgba(246, 239, 226, 0.05) 47% 53%, transparent 54%);
+    linear-gradient(30deg, transparent 0 46%, rgba(201, 162, 39, 0.05) 47% 53%, transparent 54%),
+    linear-gradient(-30deg, transparent 0 46%, rgba(246, 239, 226, 0.03) 47% 53%, transparent 54%);
   background-size: 90px 90px;
   animation: pattern-drift 28s linear infinite;
 }
@@ -499,6 +499,38 @@ button:focus-visible {
   aspect-ratio: 8 / 5;
   object-fit: cover;
   transition: transform 0.6s ease;
+}
+
+.img-flowers {
+  object-position: center 18%;
+}
+
+.img-story {
+  object-position: center 35%;
+}
+
+.img-catering {
+  object-position: center 48%;
+}
+
+.img-buffet {
+  object-position: center 40%;
+}
+
+.photo-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.photo-strip img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border-top: 6px solid var(--gold);
+  box-shadow: var(--shadow);
 }
 
 .card:hover img {
@@ -839,6 +871,14 @@ button:focus-visible {
 
   .hero-banner {
     padding: 68px 18px 80px;
+  }
+
+  .photo-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-strip img {
+    height: 220px;
   }
 
   .contact-panel {
